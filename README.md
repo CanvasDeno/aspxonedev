@@ -21,6 +21,8 @@ This project aims at making **frontend UI/UX development easier.** So developers
 
 This project will be finished and deployed to the internet **soon.** But for now, you can **locally test it by your browser.**
 
+By the way, we're still planning the **icon** and the **logo** for the project.
+
 ## How to test?
 
 You need to **fork** this project in order to test it.
