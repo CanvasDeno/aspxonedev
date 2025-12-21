@@ -5,6 +5,8 @@
             navbar: `<nav class="bg-purple-600 p-4 shadow-lg mb-6">\n    <div class="container mx-auto flex justify-between items-center">\n        <a href="#" class="text-white text-xl font-bold">AspxoneDev</a>\n        <div class="hidden md:flex space-x-6">\n            <a href="#" class="text-purple-100 hover:text-white transition">Home</a>\n            <a href="#" class="text-purple-100 hover:text-white transition">Features</a>\n            <a href="#" class="text-purple-100 hover:text-white transition">Pricing</a>\n            <a href="#" class="text-purple-100 hover:text-white transition">Contact</a>\n        </div>\n    </div>\n</nav>`,
             heading: '<h1 class="text-2xl font-bold text-purple-800 mb-4">New Heading</h1>',
             paragraph: '<p class="text-gray-700 leading-relaxed mb-4">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n</p>',
+            breakline: '<br class="my-4" />',
+            headerline: '<hr class="my-8 border-t-2 border-purple-100" />',
             button: '<button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded shadow-md transition-colors">\n    Click Me\n</button>',
             link: '<a href="#" class="text-purple-600 hover:text-purple-800 underline">Link Text</a>',
             textbox: '<input type="text" placeholder="Enter text..." class="border border-purple-300 rounded p-2 focus:outline-none focus:ring-2 focus:ring-purple-500">',
