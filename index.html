@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Styles -->
-   <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body class="flex flex-col h-screen text-gray-100 font-sans">
 
@@ -98,6 +98,14 @@
                 
                 <button onclick="insertSnippet('paragraph')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Paragraph">
                     <i class="fa-solid fa-paragraph text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Paragraph</span>
+                </button>
+
+                <button onclick="insertSnippet('breakline')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Breakline">
+                    <i class="fa-solid fa-arrow-turn-down text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Breakline</span>
+                </button>
+
+                <button onclick="insertSnippet('headerline')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Header Line">
+                    <i class="fa-solid fa-minus text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Header Line</span>
                 </button>
 
                 <button onclick="insertSnippet('button')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Button">
@@ -179,8 +187,6 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.36.1/min/vs/loader.min.js"></script>
-    
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
