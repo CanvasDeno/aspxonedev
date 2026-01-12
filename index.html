@@ -88,6 +88,10 @@
             
             <div class="flex-1 overflow-y-auto p-2 md:p-3 space-y-2">
                 <!-- UI Components -->
+                <button onclick="insertSnippet('structure')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Structure">
+                    <i class="fa-solid fa-layer-group text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Structure</span>
+                </button>
+
                 <button onclick="insertSnippet('navbar')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Navbar">
                     <i class="fa-solid fa-bars text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Navbar</span>
                 </button>
@@ -116,8 +120,16 @@
                     <i class="fa-solid fa-link text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Link</span>
                 </button>
 
+                <button onclick="insertSnippet('badge')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Badge">
+                    <i class="fa-solid fa-certificate text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Badge</span>
+                </button>
+
                 <button onclick="insertSnippet('textbox')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Input">
                     <i class="fa-solid fa-keyboard text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">TextBox</span>
+                </button>
+
+                <button onclick="insertSnippet('slider')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Slider">
+                    <i class="fa-solid fa-sliders text-purple-400 group-hover:text-white transition-colors"></i> <span class="hidden md:inline">Slider</span>
                 </button>
 
                 <button onclick="insertSnippet('footer')" class="tool-btn w-full text-left px-0 md:px-4 py-3 bg-purple-800/50 hover:bg-purple-700 rounded-lg border border-purple-700/50 hover:border-purple-500 text-purple-100 text-sm flex items-center justify-center md:justify-start gap-3 group" title="Footer">
@@ -187,6 +199,8 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.36.1/min/vs/loader.min.js"></script>
-    <script src="script.js"></script>
+    
+    <script src="script.js">
+    </script>
 </body>
 </html>
